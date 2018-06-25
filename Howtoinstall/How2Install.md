@@ -1,4 +1,4 @@
-# VSCodeにplatformioをインストールする。
+# 自分のPCにArduino IDEをインストールする
 
 今回のスマートアグリの開発に使うのはESP32という開発用のワンチップマイコンです。
 ![ESP32](../pic/install/ESP32.jpeg)
@@ -57,4 +57,16 @@
 
     - (64bit ver)
     `tar Jxfv arduino-1.8.5-linux64.tar.xz`
+
+3. `/opt` などの任意の位置にarduinoのフォルダを移動
+
+    例 )
+    - `sudo mv arduino-1.8.2 /opt/`
+
+4. インストールスクリプトの実行
+
+    例 )
+    - `cd /opt/arduino-1.8.2`
+    - `./install.sh`
+    (うまく行かない場合は `chmod -x install.sh`などで実行を許可させる)
 
