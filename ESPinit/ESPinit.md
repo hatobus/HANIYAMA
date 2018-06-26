@@ -33,7 +33,7 @@ GitHubからArduino core for the ESP32をダウンロードする。
 ここまでくればダウンロードは完了。
 次はESP32用のフォルダを作成する。特に設定しなければArduinoは
 
-- Win ... `C:\Users\User-Name\Documents\Arduino`
+`C:\Users\User-Name\Documents\Arduino`
 
 にプログラムが保存される。ここではこの下に
 
@@ -70,9 +70,10 @@ Terminalを開き、以下のコマンドを入力していきます。
 
 プログラムが実行し終われば、設定は完了。
 
-もし `xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun` のようなエラーが出た際は。
-
-開発ツールを`xcode-install --install`でインストールし、上記のコマンドをもう一度実行する。
+```
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+``` 
+もし上のようなエラーが出た際は、開発ツールを`xcode-install --install`でインストールし、上記のコマンドをもう一度実行してください。
 
 
 # Install(Linux-Debian)
