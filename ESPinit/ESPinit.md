@@ -76,7 +76,9 @@ Terminalを開き、以下のコマンドを入力していきます。
 
 
 #Install(Linux-Debian)
+
 #Install(Linux-Fedora)
+
 #install(Linux-SUSE)
 
 別途インストールスクリプトを用意したのでそちらをダウンロードして実行してください。
