@@ -2,13 +2,13 @@
 
 Arduino IDEは他のボードも開発できるが、インストールしたまますぐでは開発はできないので設定をしていく。
 
-の使用しているOSに即した方法でダウンロードをする
+使用しているOSに即した方法でダウンロードをする
 
-- [Windows](#Install(Windows))
-- [Mac](#Install(Mac))
-- [Linux(Debian, Ubuntu)](#Install(Linux-Debian))
-- [Linux(Fedora)](#Install(Linux-Fedora))
-- [Linux(openSUSE)](#install(Linux-SUSE))
+[Windows](#Install(Windows))
+[Mac](#Install(Mac))
+[Linux(Debian, Ubuntu)](#Install(Linux-Debian))
+[Linux(Fedora)](#Install(Linux-Fedora))
+[Linux(openSUSE)](#install(Linux-SUSE))
 
 
 # Install(Windows)
@@ -22,11 +22,11 @@ GitHubからArduino core for the ESP32をダウンロードする。
 
 上の方にある **Clone or Download** をクリック。
 
-![ESP32DL](../pic/ESP_dl.jpeg)
+![ESP32DL](./pic/ESP_dl.jpeg)
 
 次に出てくる **Download ZIP **をクリックする。
 
-![ESP32DLZIP](../pic/dl_zip.jpeg)
+![ESP32DLZIP](./pic/dl_zip.jpeg)
 
 ダウンロードが終わった後、好きなところに解凍する。解凍が終わると **arduino-esp32-master** というフォルダができる。
 
@@ -79,6 +79,6 @@ Terminalを開き、以下のコマンドを入力していきます。
 # Install(Linux-Fedora)
 # install(Linux-SUSE)
 
-別途インストールスクリプトを用意したのでそちらをダウンロードして実行してください。
+別途インストールスクリプトを用意したので[そちらをダウンロード](https://github.com/hatobus/SmartAgri/tree/ESPinit/ESPinit/script)して実行してください。
 
 
