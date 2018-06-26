@@ -75,11 +75,9 @@ Terminalを開き、以下のコマンドを入力していきます。
 開発ツールを`xcode-install --install`でインストールし、上記のコマンドをもう一度実行する。
 
 
-#Install(Linux-Debian)
-
-#Install(Linux-Fedora)
-
-#install(Linux-SUSE)
+# Install(Linux-Debian)
+# Install(Linux-Fedora)
+# install(Linux-SUSE)
 
 別途インストールスクリプトを用意したのでそちらをダウンロードして実行してください。
 
