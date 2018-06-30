@@ -31,8 +31,10 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  int soilhumid = analogRead(A10);
+  soilhumid = soilhumid >> 2;
   Serial.print("Moisture of soil :");
-  Serial.println(analogRead(A10));
+  Serial.println(soilhumid);
   delay(1000);
 }
 ```
