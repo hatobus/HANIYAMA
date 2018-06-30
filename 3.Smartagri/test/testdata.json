@@ -1,0 +1,9 @@
+{
+    "no" : "99",
+    "temperature" : "99.9",
+    "humidity" : "99.9",
+    "soil_humidity" : "99.9",
+    "co2_concentration" : "99.9",
+    "wavelength" : "999.9",
+    "illuminance" : "999.9"
+}
