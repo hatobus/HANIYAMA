@@ -177,5 +177,5 @@ void printStatus(float temp, float humid, int soilhumid, int co2Concentrate, int
   Serial.println(cdslight);
   Serial.println(lux);
   Serial.println(status);
-  Serial.println()
+  Serial.println();
 }
