@@ -15,11 +15,8 @@ Adafruit_TSL2561_Unified tsl = Adafruit_TSL2561_Unified(TSL2561_ADDR_FLOAT, 1234
 
 const char* ssid = "YOUR-SSID";
 const char* password = "YOUR-PASSWORD";
-
-// const int soilmoistpin = 4;
-// const int co2pin = 5;
-// const int cdspin = 14;
 const int deviceNum = YOUR-DEVICE-NUMBER;
+
 String URL = "http://153.127.199.64/recive.php";
 
 HTTPClient http;
