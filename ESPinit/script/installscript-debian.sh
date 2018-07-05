@@ -1,4 +1,4 @@
-sudo usermod -a -G dialot $USER &&
+sudo usermod -a -G dialout $USER &&
 # To judge exist of git command
 git --help > /dev/null 2>&1
 
