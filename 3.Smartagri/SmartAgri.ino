@@ -17,7 +17,7 @@ const char* ssid = "YOUR-SSID";
 const char* password = "YOUR-PASSWORD";
 const int deviceNum = YOUR-DEVICE-NUMBER;
 
-String URL = "http://153.127.199.64/recive.php";
+String URL = "http://HOGE.HUGA.com";
 
 HTTPClient http;
 
