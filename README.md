@@ -1,4 +1,4 @@
-# SmartAgri
+# HANIYAMA
 
 これは会津大学のOpenapplab企画である[スマートアグリ合宿2018 in 長尾農園](https://www.facebook.com/events/216671189128031/)で使用するレポジトリです。
 
